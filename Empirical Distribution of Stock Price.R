@@ -1,8 +1,6 @@
 ## Ploting the empirical distribution of stock price in the MapReduce framework.
 
 library(rmr2)
-library(rhdfs)
-library(plyrmr)
 
 data <- read.csv("project1.csv", header = TRUE, sep = ",")
 data1<- to.dfs(data)
