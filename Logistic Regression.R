@@ -1,8 +1,6 @@
 ## Gradient descent of logistic regression using MapReduce.
 
 library(rmr2)
-library(rhdfs)
-library(plyrmr)
 
 data_train <- data[1:8000,]
 data_test <- data[8001:10000,]
